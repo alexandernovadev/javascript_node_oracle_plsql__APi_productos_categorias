@@ -1,0 +1,21 @@
+{
+  "name": "node-oracle",
+  "version": "1.0.0",
+  "description": "COnexion ah ORACLE ????",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "nova dev",
+  "license": "MIT",
+  "dependencies": {
+    "oracledb": "^4.2.0",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "method-override": "3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
